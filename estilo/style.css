@@ -44,6 +44,11 @@ img{
 	float: right;
 }
 
+.autor{
+	position: relative;
+	left: 35%;
+}
+
 .clear{
 	clear: both;
 }
@@ -409,6 +414,17 @@ section.erro-404 a{
 	background-color: #444;
 }
 
+.fa-regular{
+	position: relative;
+	top: 22px;
+	left: 39%;
+	color: white;
+}
+
+.fa-brands{
+	color: rgb(61, 86, 172);
+}
+
 .bullets span.active-slider{
 	background: white;
 }
@@ -418,6 +434,17 @@ section.erro-404 a{
 		float: none !important;
 		display: block;
 		margin:0 auto;
+	}
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 39%;
+		color: white;
+	}
+
+	.autor{
+		position: relative;
+		left: 1%;
 	}
 
 	.w50{
@@ -436,8 +463,97 @@ section.erro-404 a{
 	}
 }
 
+@media screen and (max-width: 1222px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 38%;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 1130px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 37%;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 1030px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 35%;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 876px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 33%;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 791px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 31%;
+		color: white;
+	}
+}
 
 @media screen and (max-width: 700px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 29%;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 647px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 27%;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 587px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 25%;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 543px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 23%;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 502px){
+	.fa-regular{
+		position: relative;
+		top: 22px;
+		left: 22%;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 1000px){
 	nav.desktop{
 		display: none;
 	}
