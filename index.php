@@ -5,13 +5,13 @@
 <html>
 <head>
 	<title>Projeto 01</title>
-	<link rel="stylesheet" href="estilo/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="<?php echo INCLUDE_PATH; ?>estilo/style.css" rel="stylesheet" />
+	<script src="https://kit.fontawesome.com/d913e226cd.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="palavras-chave,do,meu,site">
 	<meta name="description" content="Descrição do meu website">
-	<link rel="icon" href="<?php echo INCLUDE_PATH; ?>favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="<?php echo INCLUDE_PATH; ?>images/icon.png" type="image/x-icon" />
 	<meta charset="utf-8" />
 </head>
 <body>
@@ -27,6 +27,8 @@
 			case 'servicos':
 				echo '<target target="servicos" />';
 				break;
+
+				
 		}
 	?>
 
@@ -79,7 +81,7 @@
 
 	<footer <?php if(isset($pagina404) && $pagina404 == true) echo 'class="fixed"'; ?>>
 		<div class="center">
-			<p>Todos os direitos reservados</p>
+			<i class="fa-regular fa-copyright"></i><p>Todos os direitos reservados</p>
 		</div><!--center-->
 	</footer>
 
