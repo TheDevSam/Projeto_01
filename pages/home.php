@@ -27,7 +27,7 @@
 				</p>
 			</div>
 			<div class="w50 left">
-				<img style="max-width: 400px; width: 50%;" class="right" src="<?php echo INCLUDE_PATH; ?>images/Samuel.png">
+				<img style="max-width: 400px; width: 50%;" class="autor" src="<?php echo INCLUDE_PATH; ?>images/Samuel.png">
 			</div>
 			<div class="clear"></div>
 		</div>	
@@ -38,22 +38,29 @@
 			<h2 class="title">Especialidades</h2>
 
 			<div class="w33 left box-especialidade">
-				<h3><img style="max-width: 980px; width: 10%;" src="images/html5.png" alt="HTML5"></h3>
+				<h3><i style="color: #f05e24;" class="fa-brands fa-html5"></i></h3>
 				<h4>HTML 5</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div><!--box-especialidade-->
 
 			<div class="w33 left box-especialidade">
-				<h3><img style="max-width: 980px; width: 10%;" src="images/css3.png" alt=""></i></h3>
+				<h3><i style="color: #2461f0;" class="fa-brands fa-css3-alt"></i></h3>
 				<h4>CSS3</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div><!--box-especialidade-->
 
 			<div class="w33 left box-especialidade">
-				<h3><img style="max-width: 980px; width: 20%;" src="images/php.png" alt="PHP"></h3>
+				<h3><i style="color: #f0e624;" class="fa-brands fa-square-js"></i></h3>
+				<h4>JavaScript</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
+
+			<div class="w33 left box-especialidade">
+				<h3><i style="color: #3d60a6;" class="fa-brands fa-php"></i></h3>
 				<h4>PHP</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div><!--box-especialidade-->
+
 			<div class="clear"></div>
 		</div>
 	</section>
