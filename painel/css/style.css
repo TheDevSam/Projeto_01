@@ -10,8 +10,13 @@ html,body{
     background: rgba(61, 87, 172, 0.938);
 }
 
+body{
+    overflow-x: hidden;
+}
+
+/*pagina de login*/
 .box-login{
-    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.719) ;
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.719);
     max-width: 600px;
     width: 95%;
     padding: 60px 2%;
@@ -57,7 +62,7 @@ html,body{
     font-size: 20px;
 }
 
-a{
+.voltar{
     text-decoration: none;
     color: inherit;
     position: relative;
@@ -65,10 +70,222 @@ a{
     left: 60%;
 }
 
+.erro-box{
+    width: 100%;
+    padding: 8px 2%;
+    text-align: center;
+    background: #f75353;
+    color: white;
+    font-size: 15px;
+}
+
+
+.clear{clear:both;}
+
+.clear{padding: 0 2%; margin: 0 auto;}
+
+
+.menu-wraper{width: 300px;}
+
+div.menu{
+    overflow-x: hidden;
+    overflow-y: auto; 
+    height: 100%;
+    background: #2eb2ff65;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    padding: 10px;
+}
+
+header{
+    position: relative;
+    left: 300px;
+    padding: 10px 0;
+    background: #2eb2ff3d ;
+    width: calc(100% - 300px);
+}
+
 @media screen and (max-width: 555px){
-    a{
+    .voltar{
         position: relative;
         top: 5px;
         left: 55%;
     }
+}
+
+.loggout{
+    float: right;
+    padding: 2px 10px;
+}
+
+.loggout a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.loggout a > span{
+    font-size: 17px;
+    
+}
+
+.menu-btn{
+    float: left;
+    color: white;
+    cursor: pointer;
+    font-size: 23px;
+    padding: 0 0 0 20px;
+}
+
+div.box-usuario{
+    text-align: center;
+}
+
+.avatar-usuario{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid black;
+}
+
+.fa-user{
+    padding: 11px 0 0 1px;
+    font-size: 95px;
+}
+
+.nome-usuario{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nome-usuario p{
+    color: white;  
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/*Conteúdo do Painel*/
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 48%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.content{
+    width: calc(100% - 300px);
+    position: relative;
+    left: 300px;
+    padding: 2%;
+}
+
+.box-content{
+    background: white;
+    padding: 10px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.itens-menu h2{
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.493);
+    position: relative;
+    right: 3.5%;
+}
+
+.itens-menu a{
+    text-decoration: none;
+    text-align: left;
+    padding: 10px 0 5px 7px;
+    display: block;
+    background: rgba(0, 0, 0, 0.253);
+    color: white;
+    position: relative;
+    right: 3.5%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.788);
+}
+
+.box-content p{
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+
+.painel{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.box-informacoes{
+    background: orange;
+    margin-top: 45px;
+    margin-left: 40px;
+    padding: 45px;
+    max-width: 450px;
+}
+
+.box-informacoes p{
+    color: white;
+    text-align: left;
+    position: relative;
+    top: -43px;
+    left: -36px;
+    font-size: 25px;
+}
+
+.box-informacoes span{
+    color: white;
+    position: relative;
+    top: 35px;
+    right: 20px; 
+    font-size: 25px;
+}
+
+.box-caixas-informacoes{
+    display: inline-flex;
+    position: relative;
+    bottom: 15px;
+}
+
+.itens-menu{
+    padding-top: 20px;
+}
+
+@media screen and (max-width:768px){
+    .menu{
+        display: none;
+        padding: 0;
+        width: 0;
+    }
+
+    .content{
+        width: 100%;
+        left: 0;
+    }
+    
+    header{
+        left: 0;
+        width: 100%;
+    }
+
 }
